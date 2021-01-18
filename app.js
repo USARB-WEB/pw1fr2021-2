@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
     //alert("Hello. Page loaded");
     document.body.style.backgroundColor = "red";
+
+
+    setTimeout(() => {
+        document.body.style.backgroundColor = "cyan";    
+    }, 5000);
 })
 
 document.getElementById("greenButton").addEventListener("click", () => {
